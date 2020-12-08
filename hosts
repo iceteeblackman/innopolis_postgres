@@ -1,0 +1,2 @@
+[all]
+<host> ansible_ssh_host=<host_ip> ansible_ssh_user=<host_user>
