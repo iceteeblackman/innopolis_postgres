@@ -8,7 +8,7 @@ docker_env:
  PGDATA: /var/lib/postgresql/data/pgdata
  POSTGRES_PASSWORD: _1q2w3e4r
  POSTGRES_USER: itbm
- POSTGRES_DB: innopolis_app
+ POSTGRES_DB: innopolis-app
 # end
 docker_volumes:
  - "{{ pg_data_dir }}:/var/lib/postgresql/data"
